@@ -7,10 +7,10 @@ export const ArticleTitle: FC<{
 }> = ({ text, publishedOn, github }) => {
 	return (
 		<>
-			<h1 className="">{text}</h1>
-			<p>
-				<a href={github}>sources</a>
-			</p>
+			<h1 className="text-4xl font-bold">{text}</h1>
+			sources:&nbsp;<a href={github}>github</a>
+			<br />
+			written on:&nbsp; {publishedOn.toLocaleDateString()}
 		</>
 	);
 };
