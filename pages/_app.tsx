@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
+import Link from "next/link";
 import type { AppProps } from "next/app";
 
 import "../styles/globals.css";
@@ -13,7 +14,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 			</Head>
 			<header>
 				<nav className="container flex justify-end py-5">
-					<a className="text-2xl font-bold">Posts</a>
+					<Link href="/">
+						<a className="text-2xl font-bold">Posts</a>
+					</Link>
 				</nav>
 			</header>
 			<Component {...pageProps} />
