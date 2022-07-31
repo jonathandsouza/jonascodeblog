@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 				<>
 					<ArticleTitle
 						text="Implementing a pre-render service using Puppeteer & NestJS"
-						publishedOn={new Date()}
+						publishedOn={"31-07-2022"}
 						github="https://github.com/jonathandsouza/puppeteer-pre-rendering-service"
 					/>
 
@@ -106,8 +106,9 @@ const Home: NextPage = () => {
 						<p>
 							At this point, some of you might comment. &quot;Ohh
 							No! I use a SSR framework like Next.js or Remix and
-							this problem doesn't apply to my use case&quot;. For
-							those please consider the following use cases:
+							this problem doesn&apos;t apply to my use
+							case&quot;. For those please consider the following
+							use cases:
 						</p>
 
 						<p className="pt-5">
@@ -201,6 +202,7 @@ const Home: NextPage = () => {
 								src="/pre-render-app-controller-2.png"
 								height={800}
 								width={700}
+								alt="app controller"
 							></Image>
 						</p>
 

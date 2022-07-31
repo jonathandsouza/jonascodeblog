@@ -2,7 +2,7 @@ import { FC } from "react";
 
 export const ArticleTitle: FC<{
 	text: string;
-	publishedOn: Date;
+	publishedOn: string;
 	github: string;
 }> = ({ text, publishedOn, github }) => {
 	return (
@@ -11,7 +11,7 @@ export const ArticleTitle: FC<{
 			<div className="pt-2">
 				sources:&nbsp;<a href={github}>github</a>
 			</div>
-			<div>written on:&nbsp; {publishedOn.toLocaleDateString()}</div>
+			<div>written on:&nbsp; {publishedOn}</div>
 		</>
 	);
 };
