@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Article: FC<any> = (children) => {
+export const Article: FC<any> = ({ children }) => {
 	return (
 		<article>
 			<div className="container">{children}</div>
