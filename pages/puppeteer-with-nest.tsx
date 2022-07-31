@@ -14,6 +14,19 @@ const Home: NextPage = () => {
 				<title>
 					Implementing a pre-render service using Puppeteer & NestJS
 				</title>
+
+				<meta
+					name="title"
+					content="Implementing a pre-render service using Puppeteer & NestJS"
+				/>
+				<meta
+					name="description"
+					content="A node service to pre-render pages or generate HTML content to be served to web crawlers"
+				/>
+				<meta
+					name="keywords"
+					content="typescript, seo-optimization, pre-render, puppeteer, nestjs"
+				/>
 			</Head>
 
 			<Article>
@@ -93,11 +106,11 @@ const Home: NextPage = () => {
 						<p>
 							At this point, some of you might comment. &quot;Ohh
 							No! I use a SSR framework like Next.js or Remix and
-							this problem doesn&pos;t apply to my use case&quot;.
-							For those please consider the following use cases:
+							this problem doesn't apply to my use case&quot;. For
+							those please consider the following use cases:
 						</p>
 
-						<p>
+						<p className="pt-5">
 							<strong>Use case 1:</strong>
 							<br />
 							The cardinal rule of building performant websites is
@@ -111,10 +124,10 @@ const Home: NextPage = () => {
 							fire way to get a call from the SEO team calling you
 							an idot. Thus the dilemma , can you lazy load the
 							footer & not suffer from the consequences of this?
-							pre-rendering is the solution you are looking for
+							pre-rendering is the solution you are looking for.
 						</p>
 
-						<p>
+						<p className="pt-5">
 							<strong>Use case 2:</strong>
 							<br />
 							Say you have a tab layout & the contents of each
@@ -149,8 +162,8 @@ const Home: NextPage = () => {
 							here
 						</p>
 
-						<p>
-							<strong>#1 setup nestjs</strong>
+						<p className="pt-5">
+							<strong>1. setup nestjs</strong>
 
 							<br />
 
@@ -161,7 +174,7 @@ const Home: NextPage = () => {
 						</p>
 
 						<p>
-							<strong>#1 setup core packages</strong>
+							<strong>2. setup core packages</strong>
 
 							<br />
 
@@ -172,8 +185,8 @@ const Home: NextPage = () => {
 						</p>
 
 						<p>
-							<strong>
-								#1 configure app default route &amp; controller
+							<strong className="pb-5">
+								3. configure app default route &amp; controller
 								(
 								<a href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service/blob/main/src/app.controller.ts">
 									source
@@ -182,21 +195,23 @@ const Home: NextPage = () => {
 							</strong>
 
 							<br />
+							<br />
 
 							<Image
-								src="/pre-render-app-controller.jpg"
+								src="/pre-render-app-controller-2.png"
 								height={800}
 								width={700}
 							></Image>
 						</p>
 
-						<p>
-							<strong>#5 Test </strong>
+						<p className="pt-5">
+							<strong>4. Test </strong>
 							<Code>
 								$ npm install
 								<br />$ npm run start
 							</Code>
-							Once the service is running. Go to the following
+							Once the service is running. Go to the
+							following&nbsp;
 							<a href="http://localhost:3030/?url=https://www.google.com">
 								link&nbsp;
 							</a>

@@ -8,9 +8,10 @@ export const ArticleTitle: FC<{
 	return (
 		<>
 			<h1 className="text-4xl font-bold">{text}</h1>
-			sources:&nbsp;<a href={github}>github</a>
-			<br />
-			written on:&nbsp; {publishedOn.toLocaleDateString()}
+			<div className="pt-2">
+				sources:&nbsp;<a href={github}>github</a>
+			</div>
+			<div>written on:&nbsp; {publishedOn.toLocaleDateString()}</div>
 		</>
 	);
 };
