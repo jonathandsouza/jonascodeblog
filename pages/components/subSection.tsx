@@ -11,4 +11,4 @@ export const SubSection: FC<{ id?: string; children: React.ReactNode }> = ({
 	);
 };
 
-export default Section;
+export default SubSection;
