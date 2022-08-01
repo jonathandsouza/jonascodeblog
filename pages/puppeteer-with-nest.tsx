@@ -82,9 +82,7 @@ const Home: NextPage = () => {
 							A pre-render service will take a URL as an input and
 							spit out the HTML content of the URL. This is useful
 							for SEO purposes, as it will help you to build more
-							reachable web application. A pre-render service is
-							primarily used for SEO purposes. i.e for the benifit
-							of web crawlers.
+							reachable web application.
 						</p>
 					</Section>
 
@@ -94,7 +92,7 @@ const Home: NextPage = () => {
 						</SectionTitle>
 						<p>
 							Say you have a website built in a modern SPA
-							framework or library. In these applications, most of
+							framework or library. In such applications, most of
 							the UI rendering and data fetching happens on the
 							client side. Due to this shortcoming, whenever your
 							page is crawled there is good chance that the
@@ -102,12 +100,12 @@ const Home: NextPage = () => {
 							page accurately. The pre-render service described in
 							this article will solve this problem for you.
 						</p>
-
+						<br />
 						<p>
 							At this point, some of you might comment. &quot;Ohh
 							No! I use a SSR framework like Next.js or Remix and
 							this problem doesn&apos;t apply to my use
-							case&quot;. For those please consider the following
+							case&quot;. For those, please consider the following
 							use cases:
 						</p>
 
@@ -160,7 +158,10 @@ const Home: NextPage = () => {
 
 						<p>
 							The sources for this implementation can be found
-							here
+							&nbsp;
+							<a href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service">
+								here
+							</a>
 						</p>
 
 						<p className="pt-5">
@@ -249,14 +250,14 @@ const Home: NextPage = () => {
 						<p>
 							The solution is ridiculously simple. All we need to
 							do is the following:
-							<ul>
+							<ul className="pl-5 pt-3">
 								<li>
 									#1 All we need is to identify the request
 									coming from pre-render service.We can
 									achieve this by adding a query parm to the
 									request coming from pre-render.
 								</li>
-								<li>
+								<li className="pt-1">
 									#2 We need to build feature flags in our app
 									that will turn off certain features which
 									are problematic from an SEO perspective. For
