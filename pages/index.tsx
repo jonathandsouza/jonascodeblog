@@ -12,6 +12,18 @@ const Home: NextPage = () => {
 					</a>
 				</Link>
 			</h2>
+			{/* <h2 className="text-2xl pt-5">
+				<Link
+					href={
+						"/infrastructure-requirements-of-a-modern-frontend-application"
+					}
+				>
+					<a>
+						2. Infrastructure requirements of a modern frontend
+						application
+					</a>
+				</Link>
+			</h2> */}
 		</div>
 	);
 };
