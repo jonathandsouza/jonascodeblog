@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 					</a>
 				</Link>
 			</h2>
-			{/* <h2 className="text-2xl pt-5">
+			<h2 className="text-2xl pt-5">
 				<Link
 					href={
 						"/infrastructure-requirements-of-a-modern-frontend-application"
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 						application
 					</a>
 				</Link>
-			</h2> */}
+			</h2>
 		</div>
 	);
 };
