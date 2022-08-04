@@ -155,13 +155,15 @@ const Home: NextPage = () => {
 							<SubSectionTitle>Images</SubSectionTitle>
 
 							<p>
-								This requirement from your deployment stack may
-								be a little subtle. Say you have a user in the
-								checkout page and at the very moment your
-								customer is doing a booking you in your infinite
-								wisdom decided to deploy a feature. In a ideal
-								situation the customer should be able to
-								complete their purchase without any disruption.
+								If you have worked in front-end development. You
+								already know that a large chunk of your
+								bandwidth is dominated by images. Additionally
+								having your images load quickly is important
+								from a performance point of view. especially for
+								the{" "}
+								<a href="https://web.dev/cls/">LCP web vital</a>
+								. Hence having your front-end infrastructure
+								deliver optimized images is a must.
 							</p>
 						</SubSection>
 					</Section>
