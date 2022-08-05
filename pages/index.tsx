@@ -24,6 +24,11 @@ const Home: NextPage = () => {
 					</a>
 				</Link>
 			</h2>
+			<h2 className="text-2xl pt-5">
+				<Link href={"/css-in-js-is-not-the-best-solution"}>
+					<a>3. CSS in JS is not the best solution</a>
+				</Link>
+			</h2>
 		</div>
 	);
 };

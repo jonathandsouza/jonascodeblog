@@ -146,7 +146,7 @@ const Home: NextPage = () => {
 						<SubSection id="time-to-first-byte">
 							<SubSectionTitle>
 								Time to first Byte (
-								<a href="https://web.dev/ttfb/">TBT</a>)
+								<a href="https://web.dev/ttfb/">TTFB</a>)
 							</SubSectionTitle>
 
 							<p>
