@@ -1,11 +1,11 @@
 import Image from "next/image";
 import type { NextPage } from "next";
-import { Article } from "./components/article";
-import ArticleTitle from "./components/articleTitle";
-import Section from "./components/section";
+import { Article } from "@components/article";
+import ArticleTitle from "@components/articleTitle";
+import Section from "@components/section";
 import Head from "next/head";
-import SectionTitle from "./components/sectionTitle";
-import Code from "./components/code";
+import SectionTitle from "@components/sectionTitle";
+import Code from "@components/code";
 
 const Home: NextPage = () => {
 	return (

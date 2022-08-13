@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 import type { NextPage } from "next";
-import { Article } from "./components/article";
-import ArticleTitle from "./components/articleTitle";
-import Section from "./components/section";
-import SectionTitle from "./components/sectionTitle";
+import { Article } from "@components/article";
+import ArticleTitle from "@components/articleTitle";
+import Section from "@components/section";
+import SectionTitle from "@components/sectionTitle";
 
 const Home: NextPage = () => {
 	return (

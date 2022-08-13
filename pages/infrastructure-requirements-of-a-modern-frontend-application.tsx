@@ -1,12 +1,12 @@
 import Head from "next/head";
 
 import type { NextPage } from "next";
-import { Article } from "./components/article";
-import ArticleTitle from "./components/articleTitle";
-import Section from "./components/section";
-import SectionTitle from "./components/sectionTitle";
-import SubSectionTitle from "./components/subSectionTitle";
-import SubSection from "./components/subSection";
+import { Article } from "@components/article";
+import ArticleTitle from "@components/articleTitle";
+import Section from "@components/section";
+import SectionTitle from "@components/sectionTitle";
+import SubSectionTitle from "@components/subSectionTitle";
+import SubSection from "@components/subSection";
 
 const Home: NextPage = () => {
 	return (
