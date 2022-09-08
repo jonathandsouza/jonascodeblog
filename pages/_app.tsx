@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<Head>
 				<title>Jonas code blog</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta
+					name="google-site-verification"
+					content="Wl7qilM3OM9c8pqDwDuqLnpbe7WWm5OZhKoW0TMvJQk"
+				/>
 			</Head>
 			<header>
 				<div className="container mx-auto max-w-screen-lg px-3 py-6">
