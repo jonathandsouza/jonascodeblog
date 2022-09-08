@@ -13,7 +13,7 @@ export const ArticleTitle: FC<{
 					sources:&nbsp;<a href={github}>github</a>
 				</div>
 			)}
-			<div>written on:&nbsp; {publishedOn}</div>
+			{/* <div>written on:&nbsp; {publishedOn}</div> */}
 		</>
 	);
 };

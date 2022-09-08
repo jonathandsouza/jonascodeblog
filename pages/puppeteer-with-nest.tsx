@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
 					<Section>
 						<SectionTitle>Table of contents</SectionTitle>
-						<ul className="pl-5">
+						<ul className="pl-5 underline">
 							<li>
 								<a href="#what-is-a-pre-render-service">
 									What is a Pre-render service?

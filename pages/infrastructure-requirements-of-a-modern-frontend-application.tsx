@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
 					<Section id="table-of-contents">
 						<SectionTitle>Table of contents</SectionTitle>
-						<ul className="pl-5">
+						<ul className="pl-5  underline">
 							<li>
 								<a href="#deployment">Deployment</a>
 								<ul className="pl-5">
