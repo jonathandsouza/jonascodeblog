@@ -14,15 +14,15 @@ const Home: NextPage = () => {
 
 				<meta
 					name="title"
-					content="CSS in JS is not the best solution"
+					content="Infrastructure requirements of a modern frontend application"
 				/>
 				<meta
 					name="description"
-					content="Why CSS in JS is not the best solution for implementing CSS in a modern front-end application and ecommerce websites."
+					content="List of infrastructure requirements of a modern frontend application"
 				/>
 				<meta
 					name="keywords"
-					content="SEO, performance, CSS in JS, Tailwind CSS"
+					content="frontend, infrastructure, requirements, modern"
 				/>
 			</Head>
 
