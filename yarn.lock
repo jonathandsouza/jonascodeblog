@@ -1358,7 +1358,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next@latest:
+next@^12.3.0:
   version "12.3.0"
   resolved "https://registry.npmjs.org/next/-/next-12.3.0.tgz"
   integrity sha512-GpzI6me9V1+XYtfK0Ae9WD0mKqHyzQlGq1xH1rzNIYMASo4Tkl4rTe9jSqtBpXFhOS33KohXs9ZY38Akkhdciw==
