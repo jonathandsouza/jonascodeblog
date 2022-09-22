@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 			<div className="container">
 				<h2 className="text-2xl pt-5">
 					<Link href={"/puppeteer-with-nest"}>
-						<a>
+						<a className="text-2xl">
 							1. Implementation for a Prerender service using
 							Puppeteer + NestJS
 						</a>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 							"/infrastructure-requirements-of-a-modern-frontend-application"
 						}
 					>
-						<a>
+						<a className="text-2xl">
 							2. Infrastructure requirements of a modern frontend
 							application
 						</a>
@@ -42,7 +42,17 @@ const Home: NextPage = () => {
 				</h2>
 				<h2 className="text-2xl pt-5">
 					<Link href={"/css-in-js-is-not-the-best-solution"}>
-						<a>3. CSS in JS is not the best solution</a>
+						<a className="text-2xl">
+							3. CSS in JS is not the best solution
+						</a>
+					</Link>
+				</h2>
+
+				<h2 className="text-2xl pt-5">
+					<Link href={"/css-in-js-is-not-the-best-solution"}>
+						<a className="text-2xl">
+							4. Some SEO gotchas &amp; Improvements
+						</a>
 					</Link>
 				</h2>
 			</div>
