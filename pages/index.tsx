@@ -49,7 +49,7 @@ const Home: NextPage = () => {
 				</h2>
 
 				<h2 className="text-2xl pt-5">
-					<Link href={"/css-in-js-is-not-the-best-solution"}>
+					<Link href={"/some-seo-gotchas-and-improvements"}>
 						<a className="text-2xl">
 							4. Some SEO gotchas &amp; Improvements
 						</a>
