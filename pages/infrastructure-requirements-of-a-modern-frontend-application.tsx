@@ -146,19 +146,34 @@ const Home: NextPage = () => {
 						<SubSection id="time-to-first-byte">
 							<SubSectionTitle>
 								Time to first Byte (
-								<a href="https://web.dev/ttfb/">TTFB</a>)
+								<a
+									className="underline"
+									href="https://web.dev/ttfb/"
+								>
+									TTFB
+								</a>
+								)
 							</SubSectionTitle>
 
 							<p>
 								This is what we call in the business an easy
 								win. Of all the{" "}
-								<a href="https://web.dev/learn-web-vitals/">
+								<a
+									className="underline"
+									href="https://web.dev/learn-web-vitals/"
+								>
 									Core web vitals
 								</a>{" "}
 								to optimize for this has to be in my opinion the
 								easiest. Just get a CDN or requisition a
 								front-end cloud infrastructure like{" "}
-								<a href="https://vercel.com/">Vercel</a>.
+								<a
+									className="underline"
+									href="https://vercel.com/"
+								>
+									Vercel
+								</a>
+								.
 							</p>
 						</SubSection>
 
@@ -172,7 +187,12 @@ const Home: NextPage = () => {
 								having your images load quickly is important
 								from a performance point of view. especially for
 								the{" "}
-								<a href="https://web.dev/cls/">LCP web vital</a>
+								<a
+									className="underline"
+									href="https://web.dev/cls/"
+								>
+									LCP web vital
+								</a>
 								. Hence having your front-end infrastructure
 								deliver optimized images is a must.
 							</p>

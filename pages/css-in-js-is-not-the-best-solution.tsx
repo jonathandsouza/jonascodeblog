@@ -68,10 +68,29 @@ const Home: NextPage = () => {
 							industry has a deep understanding of the limitations
 							of CSS. Additionally, what CSS is not capable of
 							doing are solved by solutions such as pre-processors
-							( <a href="https://sass-lang.com/">SCSS</a> &{" "}
-							<a href="https://lesscss.org/"> LESS </a>)) and post
-							processors such as{" "}
-							<a href="https://postcss.org/"> PostCSS </a>
+							({" "}
+							<a
+								className="underline"
+								href="https://sass-lang.com/"
+							>
+								SCSS
+							</a>{" "}
+							&{" "}
+							<a
+								className="underline"
+								href="https://lesscss.org/"
+							>
+								{" "}
+								LESS{" "}
+							</a>
+							)) and post processors such as{" "}
+							<a
+								className="underline"
+								href="https://postcss.org/"
+							>
+								{" "}
+								PostCSS{" "}
+							</a>
 						</p>
 
 						<p className="pt-5">
@@ -84,10 +103,15 @@ const Home: NextPage = () => {
 						<p className="pt-5">
 							In a time when google nudges you to reduce your
 							javascript footprint (
-							<a href="https://web.dev/ttfb/">TTFB</a>) and
-							simultaneously we are seeing a re-immergence of
-							server side rendering solutions. CSS in JS solutions
-							are completely miss placed.
+							<a
+								className="underline"
+								href="https://web.dev/ttfb/"
+							>
+								TTFB
+							</a>
+							) and simultaneously we are seeing a re-immergence
+							of server side rendering solutions. CSS in JS
+							solutions are completely miss placed.
 						</p>
 					</Section>
 
@@ -95,7 +119,12 @@ const Home: NextPage = () => {
 						<SectionTitle>A better solution</SectionTitle>
 
 						<p>
-							<a href="https://tailwindcss.com/">Tailwind CSS</a>{" "}
+							<a
+								className="underline"
+								href="https://tailwindcss.com/"
+							>
+								Tailwind CSS
+							</a>{" "}
 							is in my opinion a very clean & efficient way to
 							write CSS. By building complex UI using utility
 							classes it ensures that your CSS bundle is very

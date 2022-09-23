@@ -114,7 +114,10 @@ const Home: NextPage = () => {
 							<br />
 							The cardinal rule of building performant websites is
 							to{" "}
-							<a href="https://web.dev/dom-size/">
+							<a
+								className="underline"
+								href="https://web.dev/dom-size/"
+							>
 								{" "}
 								load less dom
 							</a>
@@ -143,12 +146,20 @@ const Home: NextPage = () => {
 						</SectionTitle>
 						<ul>
 							<li>
-								<a href="https://github.com/puppeteer/puppeteer">
+								<a
+									className="underline"
+									href="https://github.com/puppeteer/puppeteer"
+								>
 									Puppeteer
 								</a>
 							</li>
 							<li>
-								<a href="https://docs.nestjs.com/">NestJS</a>
+								<a
+									className="underline"
+									href="https://docs.nestjs.com/"
+								>
+									NestJS
+								</a>
 							</li>
 						</ul>
 					</Section>
@@ -159,7 +170,10 @@ const Home: NextPage = () => {
 						<p>
 							The sources for this implementation can be found
 							&nbsp;
-							<a href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service">
+							<a
+								className="underline"
+								href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service"
+							>
 								here
 							</a>
 						</p>
@@ -190,7 +204,10 @@ const Home: NextPage = () => {
 							<strong className="pb-5">
 								3. configure app default route &amp; controller
 								(
-								<a href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service/blob/main/src/app.controller.ts">
+								<a
+									className="underline"
+									href="https://github.com/jonathandsouza/puppeteer-pre-rendering-service/blob/main/src/app.controller.ts"
+								>
 									source
 								</a>
 								)
@@ -215,7 +232,10 @@ const Home: NextPage = () => {
 							</Code>
 							Once the service is running. Go to the
 							following&nbsp;
-							<a href="http://localhost:3030/?url=https://www.google.com">
+							<a
+								className="underline"
+								href="http://localhost:3030/?url=https://www.google.com"
+							>
 								link&nbsp;
 							</a>
 							(http://localhost:3030/?url=https://www.google.com/).
@@ -240,7 +260,10 @@ const Home: NextPage = () => {
 						</SectionTitle>
 						<p>
 							Earlier in this article, we discussed some{" "}
-							<a href="#why-you-need-pre-render-service">
+							<a
+								className="underline"
+								href="#why-you-need-pre-render-service"
+							>
 								use cases
 							</a>
 							. With the pre-render service in place we are now
