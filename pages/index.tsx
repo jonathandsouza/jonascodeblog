@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
 	return (
 		<>
 			<Head>
@@ -60,4 +60,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default Page;

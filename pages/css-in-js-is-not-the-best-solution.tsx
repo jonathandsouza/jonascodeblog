@@ -6,7 +6,7 @@ import ArticleTitle from "@components/articleTitle";
 import Section from "@components/section";
 import SectionTitle from "@components/sectionTitle";
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
 	return (
 		<>
 			<Head>
@@ -139,4 +139,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default Page;

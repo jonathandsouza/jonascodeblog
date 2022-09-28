@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Jonas code blog</title>
+				<title>Jona's code blog</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta
 					name="google-site-verification"
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 									className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent"
 									style={{ lineHeight: "3.5rem" }}
 								>
-									Jona&apos;s Blog
+									Jona's Blog
 								</div>
 							</a>
 						</Link>

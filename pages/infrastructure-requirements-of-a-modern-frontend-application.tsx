@@ -8,12 +8,13 @@ import SectionTitle from "@components/sectionTitle";
 import SubSectionTitle from "@components/subSectionTitle";
 import SubSection from "@components/subSection";
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
 	return (
 		<>
 			<Head>
 				<title>
-					Infrastructure requirements of a modern frontend application
+					Infrastructure requirements of a modern frontend
+					applications
 				</title>
 
 				<meta
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
 				/>
 				<meta
 					name="description"
-					content="List of infrastructure requirements of a modern frontend application"
+					content="List of infrastructure requirements of a modern frontend applications"
 				/>
 				<meta
 					name="keywords"
@@ -277,4 +278,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default Page;
