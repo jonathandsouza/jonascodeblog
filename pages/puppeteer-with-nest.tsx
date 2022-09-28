@@ -7,7 +7,7 @@ import Head from "next/head";
 import SectionTitle from "@components/sectionTitle";
 import Code from "@components/code";
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
 	return (
 		<>
 			<Head>
@@ -307,4 +307,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default Page;
