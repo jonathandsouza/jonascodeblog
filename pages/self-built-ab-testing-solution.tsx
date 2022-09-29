@@ -54,22 +54,25 @@ const Home: NextPage = () => {
 									className="underline"
 									href="#storing-test-version"
 								>
-									Storing test version
+									Storing experiment & variant information
+									into the client
 								</a>
 							</li>
 							<li>
 								<a
 									className="underline"
 									href="#the-problem-wth-tab-layout"
-								></a>
+								>
+									Passing experiment & variant information to
+									Google Analytics
+								</a>
 							</li>
 							<li>
 								<a
 									className="underline"
 									href="#the-problem-wth-lazy-loading"
 								>
-									The Problem with Lazy loaded content &
-									proposed solution.
+									Configuring Google Analytics
 								</a>
 							</li>
 						</ul>
@@ -77,11 +80,7 @@ const Home: NextPage = () => {
 
 					<Section id="introduction">
 						<SectionTitle>Introduction</SectionTitle>
-						<p>
-							My company recently hired an external consultant to
-							suggest some SEO improvements. I would like to share
-							some of the insights here.
-						</p>
+						<p></p>
 					</Section>
 
 					<Section id="preloading-and-lazy-loading-images-for-better-seo">
