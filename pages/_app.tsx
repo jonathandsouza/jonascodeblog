@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Jona's code blog</title>
+				<title>Jonas code blog</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta
 					name="google-site-verification"
