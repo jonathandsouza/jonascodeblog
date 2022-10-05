@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 									className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent"
 									style={{ lineHeight: "3.5rem" }}
 								>
-									Jona&pos;s Blog
+									Jonas Blog
 								</div>
 							</a>
 						</Link>
