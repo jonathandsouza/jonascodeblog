@@ -6,7 +6,7 @@ const Page: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Jonas code blog</title>
+				<title>Jonas code blog.</title>
 
 				<meta name="title" content="Jonas code blog" />
 				<meta
