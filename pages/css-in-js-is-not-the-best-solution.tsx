@@ -29,7 +29,7 @@ const Page: NextPage = () => {
 			<Article>
 				<>
 					<ArticleTitle
-						text="Infrastructure requirements of a modern frontend application"
+						text="CSS In JS is not the best solution"
 						publishedOn={"05-08-2022"}
 					/>
 
